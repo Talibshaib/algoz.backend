@@ -37,6 +37,10 @@ const userSchema = new Schema(
         },
         refreshToken: {
             type: String
+        },
+        balance: {
+            type: Number,
+            default: 0
         }
 
     },
