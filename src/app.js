@@ -6,8 +6,7 @@ const app = express()
 
 
 app.use(cors({
-    // origin: process.env.CORS_ORIGIN || ["http://localhost:3000", "https://your-frontend-url.vercel.app"],
-    origin:true,
+    origin: process.env.CORS_ORIGIN || ["http://localhost:3000", "https://algoz-frontend.vercel.app"],
     credentials: true
 })) 
 
